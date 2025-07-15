@@ -43,7 +43,7 @@ st.markdown("""
 def load_data():
     """Load the dataset"""
     try:
-        df= pd.read_csv('data\\user_behavior_dataset.csv')
+        df = pd.read_csv('user_behavior_dataset.csv')
         # Create age groups
         df['Age_Group'] = pd.cut(df['Age'], 
                                 bins=[17, 25, 35, 45, 59], 
