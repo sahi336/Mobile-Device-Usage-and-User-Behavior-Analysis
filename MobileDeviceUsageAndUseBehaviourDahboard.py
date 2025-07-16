@@ -9,7 +9,7 @@ from plotly.subplots import make_subplots
 
 # Configure the page
 st.set_page_config(
-    page_title="Mobile Device Usage Dashboard",
+    page_title="Mobile Device Usage and User Behavior Dashboard",
     page_icon="📱",
     layout="wide",
     initial_sidebar_state="expanded"
