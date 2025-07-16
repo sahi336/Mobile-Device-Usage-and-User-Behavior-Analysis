@@ -145,7 +145,7 @@ with col4:
     )
 
 # Visualization Section
-st.markdown('<h2 class="sub-header">📊 Interactive Visualizations</h2>', unsafe_allow_html=True)
+# st.markdown('<h2 class="sub-header">📊 Interactive Visualizations</h2>', unsafe_allow_html=True)
 
 # Create tabs for different visualizations
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
